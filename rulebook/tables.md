@@ -1,0 +1,5 @@
+---
+pageClass: tables
+---
+
+# Tables
