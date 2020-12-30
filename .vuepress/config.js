@@ -1,6 +1,7 @@
 module.exports = {
     title: 'Toyota Wars',
     description: 'does it work?',
+    dest: 'docs',
     themeConfig: {
         nav: [
             { text: 'Home', link: '/'},
