@@ -8,8 +8,8 @@
     
     <meta name="description" content="does it work?">
     
-    <link rel="preload" href="/assets/css/0.styles.14f2d972.css" as="style"><link rel="preload" href="/assets/js/app.f96c0cc8.js" as="script"><link rel="preload" href="/assets/js/2.4183055a.js" as="script"><link rel="preload" href="/assets/js/9.966147fc.js" as="script"><link rel="prefetch" href="/assets/js/10.3ed7e417.js"><link rel="prefetch" href="/assets/js/3.f0c62a89.js"><link rel="prefetch" href="/assets/js/4.6e7eb969.js"><link rel="prefetch" href="/assets/js/5.6454e1ca.js"><link rel="prefetch" href="/assets/js/6.f706f8ba.js"><link rel="prefetch" href="/assets/js/7.136e8e3d.js"><link rel="prefetch" href="/assets/js/8.39759626.js">
-    <link rel="stylesheet" href="/assets/css/0.styles.14f2d972.css">
+    <link rel="preload" href="/assets/css/0.styles.9e11f512.css" as="style"><link rel="preload" href="/assets/js/app.07933696.js" as="script"><link rel="preload" href="/assets/js/2.4183055a.js" as="script"><link rel="preload" href="/assets/js/9.05beb0b0.js" as="script"><link rel="prefetch" href="/assets/js/10.7fefb178.js"><link rel="prefetch" href="/assets/js/3.beb4e53c.js"><link rel="prefetch" href="/assets/js/4.76d84eb3.js"><link rel="prefetch" href="/assets/js/5.6454e1ca.js"><link rel="prefetch" href="/assets/js/6.f706f8ba.js"><link rel="prefetch" href="/assets/js/7.4fec445c.js"><link rel="prefetch" href="/assets/js/8.e2a2a4b9.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.9e11f512.css">
   </head>
   <body>
     <div id="app" data-server-rendered="true"><div class="theme-container tables-class"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Toyota Wars</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
@@ -28,7 +28,48 @@
   Buy Game
 </a></div><div class="nav-item"><a href="/https://drive.google.com.html" class="nav-link">
   Print map
-</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/rulebook/" aria-current="page" class="sidebar-link">Rulebook</a></li><li><a href="/rulebook/tables.html" aria-current="page" class="active sidebar-link">Tables</a></li><li><a href="/rulebook/terms.html" class="sidebar-link">Terms and Definitions</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="tables"><a href="#tables" class="header-anchor">#</a> Tables</h1></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/rulebook/" aria-current="page" class="sidebar-link">Rulebook</a></li><li><a href="/rulebook/tables.html" aria-current="page" class="active sidebar-link">Tables</a></li><li><a href="/rulebook/terms.html" class="sidebar-link">Terms and Definitions</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="tables"><a href="#tables" class="header-anchor">#</a> Tables</h1> <div class="fenetre" style="position:fixed !important;width:100px;height:100px;background-color:rgba(44,50,54,0.9);border:20px solid rgba(44,50,54,0.9);cursor:pointer;hover:101%;right:3%;top:9%;border-radius:20%;"><img id="image" src="img1.png" name="randimg"> <style>
+    .fenetre {background-color: rgb(44,50,54)}
+    #image {
+      width: 100px;
+    }
+    #image:not(:active) {
+      animation-name: example;
+      animation-duration: 4s;
+    }
+    #image:hover {
+      cursor:pointer;
+    }
+    @keyframes example {
+      from {opacity:0;}
+      to {opacity: 1;}
+    }
+  </style> <script>
+    var images = [ 
+      &quot;https://i.ibb.co/Hpp9nFM/d1.png&quot;, 
+      &quot;https://i.ibb.co/XxwmjbW/d2.png&quot;,
+      &quot;https://i.ibb.co/KbxCMyW/d3.png&quot;,
+      &quot;https://i.ibb.co/tbppJVM/d4.png&quot;,
+      &quot;https://i.ibb.co/2jtdHnb/d5.png&quot;,
+      &quot;https://i.ibb.co/QQtWTQk/d6.png&quot;];
+    init();
+    function random_image(images) {
+      var random = randomize(images);
+      while(images[random] === document.getElementById(&quot;image&quot;).src){
+      random = randomize(images)
+    }
+    document.getElementById(&quot;image&quot;).src = images[random].toString();
+    }
+    function randomize(array){
+      return Math.floor((Math.random() * (array.length)));
+    }
+    function init() {
+      document.getElementById(&quot;image&quot;).addEventListener(&quot;click&quot;, function(){
+      random_image(images);
+      });
+      random_image(images);
+    }
+  </script></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
       ←
       <a href="/rulebook/" class="prev router-link-active">
         Rulebook
@@ -37,6 +78,6 @@
       </a>
       →
     </span></p></div> </main></div><div class="global-ui"></div></div>
-    <script src="/assets/js/app.f96c0cc8.js" defer></script><script src="/assets/js/2.4183055a.js" defer></script><script src="/assets/js/9.966147fc.js" defer></script>
+    <script src="/assets/js/app.07933696.js" defer></script><script src="/assets/js/2.4183055a.js" defer></script><script src="/assets/js/9.05beb0b0.js" defer></script>
   </body>
 </html>
