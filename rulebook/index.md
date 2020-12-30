@@ -217,13 +217,28 @@ The game ends immediately if either Habre or Goukouni are eliminated; the player
         }
         #image,
         #image2 {
-          width: 200px;
-          height: 200px;
+          width: 150px;
+          height: 150px;
         }
         #image:hover,
         #image2:hover {
           cursor: pointer;
         }
+        @media (min-width:320px)  { 
+            .dice1 {
+              right: 20px;
+              bottom: 10px;
+            }
+            .dice2 {
+              right: 120px;
+              bottom: 10px;
+            }
+            #image,
+            #image2 {
+              width: 100px;
+              height: 100px;
+            }
+         }
       </style>
       <script>
         function sleep(milliseconds) {
