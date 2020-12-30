@@ -197,7 +197,7 @@ The game ends immediately if either Habre or Goukouni are eliminated; the player
     >
       <img
         id="image"
-        src="https://i.ibb.co/mtSW8Rh/d4.png"
+        src="https://i.ibb.co/3vrfSsT/d3.png"
         onclick="change();"
       />
       <style>
@@ -230,13 +230,14 @@ The game ends immediately if either Habre or Goukouni are eliminated; the player
               bottom: 10px;
             }
             .dice2 {
-              right: 120px;
+              right: 170px;
               bottom: 10px;
             }
             #image,
             #image2 {
-              width: 100px;
-              height: 100px;
+              width: 150px;
+              height: 150px;
+              image-rendering: auto;
             }
          }
       </style>
@@ -250,18 +251,18 @@ The game ends immediately if either Habre or Goukouni are eliminated; the player
         }
         function change() {
           document.getElementById("image").src =
-            "https://i.ibb.co/Nsn1nDr/ezgif-2-1e243b1264ba.gif";
+            "https://i.ibb.co/84NCLQF/dice-mr.gif";
           setTimeout(() => {
             random_image(images);
           }, 1200);
         }
         var images = [
-          "https://i.ibb.co/64sZzr4/d1.png",
-          "https://i.ibb.co/7GsbLdH/d2.png",
-          "https://i.ibb.co/VBPqRsX/d3.png",
-          "https://i.ibb.co/mtSW8Rh/d4.png",
-          "https://i.ibb.co/rxGgW99/d5.png",
-          "https://i.ibb.co/LYrPrkJ/d6.png"
+          "https://i.ibb.co/PFGs32S/d1.png",
+          "https://i.ibb.co/M7fW5cf/d2.png",
+          "https://i.ibb.co/3vrfSsT/d3.png",
+          "https://i.ibb.co/PCQ1jTJ/d4.png",
+          "https://i.ibb.co/yB0N8qP/d5.png",
+          "https://i.ibb.co/FnjctYm/d6.png"
         ];
         function random_image(images) {
           var random = randomize(images);
@@ -278,13 +279,13 @@ The game ends immediately if either Habre or Goukouni are eliminated; the player
     <div class="dice2">
       <img
         id="image2"
-        src="https://i.ibb.co/mtSW8Rh/d4.png"
+        src="https://i.ibb.co/3vrfSsT/d3.png"
         onclick="change2();"
       />
       <script>
         function change2() {
           document.getElementById("image2").src =
-            "https://i.ibb.co/Nsn1nDr/ezgif-2-1e243b1264ba.gif";
+            "https://i.ibb.co/84NCLQF/dice-mr.gif";
           setTimeout(() => {
             random_image2(images);
           }, 1200);

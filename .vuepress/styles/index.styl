@@ -10,14 +10,19 @@
 }
 
 
-body {
-    color: lightgrey;
+body, .sidebar {
+    color: lightgrey !important;
 }
 
 #app, .sidebar, html {
     background-color: var(--bg) !important;
     border: none;
 }
+
+ ul.suggestions {
+    background-color: var(--lg) !important;
+    border: none !important;
+ }
 
 #app .theme-container .home .features, .theme-container .home .footer {
     border-top: none;
@@ -59,7 +64,7 @@ body {
 }
 
 #main-title {
-    font-family: impact !important;
+    font-family: "Holtwood One SC" !important;
     text-transform: uppercase;
     font-size: 65px;
     margin-top: -75px;
