@@ -1,7 +1,7 @@
 ---
 pageClass: home-class
 home: true
-heroImage: /images/logo.gif
+heroImage: /images/logo2.gif
 heroText: The Toyota Wars
 tagline: 
 actionText: Rulebook →

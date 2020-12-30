@@ -8,10 +8,60 @@
   --ac: rgb(255,179,0);
   --do: rgb(200, 130, 40);
   --tp: rgba(0,0,0,0);
+
+  --blue: rgb(70,200,250);
+  --red: rgb(240,110,120);
+  --green: rgb(100,255,120);
+  --purple: rgb(255,100,255);
+  --white: rgb(230,230,240);
+  --yellow: rgb(255,200,100);
+}
+
+.blue, .red, .green, .purple, .yellow, .white {
+    padding: 2px;
+    border-radius: 3px;
+    background-color: red;
+    color: black;
+    font-weight: bold;
+}
+
+.blue {
+    background-color: var(--blue);
+}
+.red {
+    background-color: var(--red);
+}
+.green {
+    background-color: var(--green);
+}
+.purple {
+    background-color: var(--purple);
+}
+.yellow {
+    background-color: var(--yellow);
+}
+.white {
+    background-color: var(--white);
 }
 
 body, .sidebar {
     color: lightgrey !important;
+}
+
+.theme-default-content code {
+    color: white !important;
+    background-color: rgb(34,40,44) !important;
+}
+
+.unitTypes {
+    width: 140px;
+    image-rendering: crisp-edges;
+    margin-bottom: 20px;
+}
+
+.unitID {
+    width: 221px;
+    margin-bottom: 20px;
 }
 
 #app, .sidebar, html {
