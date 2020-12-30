@@ -6,8 +6,7 @@ module.exports = {
         nav: [
             { text: 'Home', link: '/'},
             { text: 'Rulebook', link: '/rulebook/'},
-            { text: 'Buy Game', link: '/https://amazon.com'},
-            { text: 'Print map', link: '/https://drive.google.com'}
+            { text: 'Buy Game', link: 'https://boardgamegeek.com/boardgame/8322/chad-toyota-wars-1979-1988'},
         ],
         sidebar: {
             '/rulebook/': [
