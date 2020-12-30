@@ -2,8 +2,8 @@
 pageClass: home-class
 home: true
 heroImage: /images/logo.gif
-heroText: CHAD
-tagline: The Toyota Wars
+heroText: The Toyota Wars
+tagline: 
 actionText: Rulebook →
 actionLink: /rulebook/
 features:

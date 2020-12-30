@@ -1,11 +1,77 @@
-.theme-container.tables-class {
-    h1 {
-        color: green;
-    }
+
+:root {
+  --bg: rgb(44,50,54);
+  --bt: rgba(44,50,54,0.9);
+  --lg: rgb(60,65,70);
+  --tg: rgba(75,80,85,0.5);
+  --ac: rgb(255,179,0);
+  --do: rgb(200, 130, 40);
+  --tp: rgba(0,0,0,0);
 }
 
-.theme-container.home-class, .theme-container.tables-class {
-    .navbar .site-name {
-        color: orange;
-    }
+
+body {
+    color: lightgrey;
+}
+
+#app, .sidebar, html {
+    background-color: var(--bg) !important;
+    border: none;
+}
+
+#app .theme-container .home .features, .theme-container .home .footer {
+    border-top: none;
+}
+
+.features {
+    margin-top: 50px !important;
+}
+
+.navbar {
+    background-color: var(--bt);
+    border-bottom: none;
+}
+
+.links {
+    background-color: var(--tp) !important;
+}
+
+.links .search-box input {
+    background-color: var(--tg);
+    border: none;
+}
+
+.nav-links .nav-item {
+    font-variant: small-caps;
+}
+
+.nav-item > a:not(.external):hover, .nav-item > a:not(.external).router-link-active {
+    border-bottom: 4px solid var(--ac) !important;
+}
+
+.home .hero .action-button {
+    color: var(--bg) !important;
+    margin-top: 50px;
+}
+
+#main-title, .description {
+    color: var(--ac) !important;
+}
+
+#main-title {
+    font-family: impact !important;
+    text-transform: uppercase;
+    font-size: 65px;
+    margin-top: -75px;
+}
+
+.description {
+    font-family: impact !important;
+}
+
+header.hero img {
+    padding-top: 60px;
+    object-fit: cover;
+    image-rendering: pixelated;
+    width: 500px;
 }
