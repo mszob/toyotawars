@@ -1,4 +1,5 @@
 ---
+pageClass: home-class
 home: true
 heroImage: /images/logo.gif
 heroText: CHAD

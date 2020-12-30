@@ -1,5 +1,5 @@
 ---
-pageClass: tables
+pageClass: tables-class
 ---
 
 # Tables
