@@ -3,8 +3,6 @@
 ## Understanding the Military Situation
 
 ### Commanders
-
-#### Habré and Goukouni
    
 `The Toyota Wars` is a two-player simulation of the Chadian civil war between <span class="blue">Hissène Habré</span>, Commander of <span class="blue">F.A.N.</span> (Armed Forces of the North), and <span class="red">Goukouni Oueddei</span>, Commander of <span class="red">F.A.P.</span> (the People's Armed Forces). Libya, France, the USA, and the Organization of African Unity (OAU), may intervene and assist in various ways, but the larger political decisions on which intervention is based are not controlled be either player. Due to foreign intervention, The Toyota Wars repeatedly errupted into full-blown international conflict and invasion from Lybia. For this reason, the Toyota Wars are sometimes considered to be a series of conflics between Chad and Lybia, rather than the drawn-out civil way between Habré and Goukouni.
 

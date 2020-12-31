@@ -1,4 +1,9 @@
 module.exports = {
+    head: [
+        ['link', 
+            { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap' }
+        ],
+      ],
     title: 'Toyota Wars',
     description: 'does it work?',
     dest: 'docs',
