@@ -16,6 +16,20 @@
   --yellow: rgb(255,200,100);
 }
 
+.dice {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+  background-color: rgba(44,50,54,0.8);
+  border-radius: 30px;
+  margin: 20px;
+}
+
+#die1 {
+    margin-right: -20px;
+}
+
 .blue, .red, .green, .purple, .yellow, .white, .black {
     padding: 2px;
     border-radius: 3px;
@@ -110,6 +124,7 @@ body, .sidebar {
 .home .hero .action-button {
     color: var(--bg) !important;
     margin-top: 50px;
+    font-family: monospace !important;
 }
 
 h2, p, .footer {
@@ -132,6 +147,12 @@ h2, p, .footer {
     text-transform: uppercase;
     font-size: 65px !important;
     margin-top: -75px;
+}
+
+.theme-container .navbar .homelink .site-name {
+    font-family: sans-serif !important;
+    font-weight: bold !important;
+    color: grey !important;
 }
 
 .description {
