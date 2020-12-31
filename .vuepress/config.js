@@ -1,8 +1,8 @@
 module.exports = {
     head: [
-        ['link', 
-            { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap' }
-        ],
+        ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap' }],
+        ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap' }],
+        ['link', { rel: "shortcut icon", href: "/images/favicon.ico"}],
       ],
     title: 'Toyota Wars',
     description: 'does it work?',
