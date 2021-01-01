@@ -10,11 +10,11 @@ Below is a brief historical introduction to `The Toyota Wars`. For more in-depth
    
 `The Toyota Wars` is a two-player simulation of a series of military conflicts that played out between 1983-1987 in the country of Chad. These conflicts included a civil war, the overthrowing of the Chadian government by commander Hissène Habré, and the invasion of the country by neighboring Libya under Muammar Gaddafi.
 
-<span class="info"> 
+<!--<span class="info"> 
 
 The terms "Toyota Wars" or "Toyota War" are sometimes used to refer to portions of the Chadian civil war of 1982-87, and sometimes used to refer to the [final phase of the Chadian-Lybian conflict](https://en.wikipedia.org/wiki/Chadian%E2%80%93Libyan_conflict#Toyota_War), which lasted from 1978 to 1987.
 
-</span>
+</span>-->
 
 `The Toyota Wars` primarily focuses on the civil war between [Hissène Habré](https://en.wikipedia.org/wiki/Hiss%C3%A8ne_Habr%C3%A9), Commander of <span class="blue">FAN</span> (Armed Forces of the North), and [Goukouni Oueddei](https://en.wikipedia.org/wiki/Goukouni_Oueddei), Commander of <span class="red">FAP</span> (the People's Armed Forces). <span class="green">Lybia</span>, <span class="white">France</span>, and the <span class="yellow">OAU</span> (Organization for African Unity), may intervene and assist in various ways, but the larger political decisions on which intervention is based are not controlled be either player. 
 
