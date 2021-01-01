@@ -15,6 +15,65 @@
   --black: rgb(0,0,0);
   --yellow: rgb(255,200,100);
   --lg: lightgray;
+  --tg: rgba(255,255,255,0.5);
+}
+
+.info {
+    display: block;
+    margin: 40px;
+    padding: 15px;
+    border: 2px solid var(--tg);
+    border-radius: 5px;
+    color: var(--tg);
+}
+
+.info:before {
+    display: block;
+    margin-bottom: -47px;
+    content:"ⓘ";
+    font-family: monotype;
+    font-size: 1.5em;
+    font-style: normal;
+}
+
+.info p {
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    color: var(--tg) !important;
+}
+
+.info a {
+    color: white !important;
+}
+
+blockquote {
+    border-left: 0.3rem solid var(--ac) !important;
+    background-color: rgba(255,179,0,0.2) !important;
+}
+
+blockquote p {
+    font-color: white !important;
+}
+
+#eastereggimage {
+  width:40px;
+  height:43px;
+  margin-bottom:-2px;
+  margin-left:-1px;
+  image-rendering: pixelated;
+}
+
+#easteregg {
+  height:120px; 
+  width:60px; 
+  border-style:solid;
+  border-width:4px;
+  border-color:var(--orange);
+  background-color:var(--grey);
+  border-radius:50%;
+  z-index:100;
 }
 
 .dice {
@@ -29,6 +88,11 @@
 
 #die1 {
     margin-right: -20px;
+    bottom: 0;
+}
+
+#die2 {
+    bottom: 0;
 }
 
 .blue, .red, .green, .purple, .yellow, .white, .black {
@@ -37,6 +101,7 @@
     background-color: red;
     color: black;
     font-weight: bold;
+    background-opacity: 0.5;
 }
 
 .blue {

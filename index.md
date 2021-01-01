@@ -15,3 +15,7 @@ features:
   details:
 footer:
 --- 
+
+<a class="hover zooom" id="easteregg" href="https://mszob.github.io/runner/">
+  <img id="eastereggimage" src="https://cdn.glitch.com/e6fb0ff7-07a5-4840-b183-44bd7913c483%2FNew%20Piskel-1.png.png?v=1590024013699">
+</a>
