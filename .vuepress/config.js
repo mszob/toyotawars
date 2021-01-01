@@ -10,7 +10,7 @@ module.exports = {
         ['link', { rel: "shortcut icon", href: "/images/favicon.ico"}],
       ],
 
-    title: 'Toyota Wars',
+    title: 'TW Rulebook',
     description: 'does it work?',
     dest: 'docs',
     

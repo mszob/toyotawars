@@ -7,24 +7,18 @@ tagline:
 actionText: Rulebook →
 actionLink: /rulebook/
 features:
-- title: 
-  details: 
-- title:
-  details:
-- title:
-  details:
+- title: Digital
+  details: Super accessible, sharable, that kind of thing...
+- title: Searchable
+  details: Pretty self-explanatory, and really important for a complex game like Toyota Wars!
+- title: Interactive
+  details: Even got some game dice on the Play page!
 footer:
 --- 
 
 
-
-
-
-
-
-
 <a id="easteregg" href="https://mszob.github.io/runner/" target="_blank">
-  <img id="eastereggimage" src="https://cdn.glitch.com/e6fb0ff7-07a5-4840-b183-44bd7913c483%2FNew%20Piskel-1.png.png?v=1590024013699">
+  <img id="eastereggimage" src="/images/egg.png">
 </a>
 
 
