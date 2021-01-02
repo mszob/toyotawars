@@ -6,6 +6,8 @@
 <die-roll id="die2"></die-roll>
 </div>
 
+> For first time players, you may want to visit the [game intro](/rulebook/) before attempting the gameplay on this page.
+
 ## Overview of Sequence of Play
 
 
@@ -52,8 +54,63 @@ Below is map of the sequence of play which can be used for reference during the 
 
 ![image](/images/diagram.png)
 
+### Victory Conditions
+
+The game ends immediately if either Habre or Goukouni are eliminated; the player with the surviving Commander is declared the victor. Otherwise, the player who occupies N'Djamena with any type of ground unit at the end of 10 rounds wins the game.
+
+## Game Setup
+
+###  Combat Units Setup
+
+#### <span class="blue">Government Forces</span>
+   
+   **Head of Government** : FAN Commander HABRE in Abeche `3633`
+
+*   4x FAN guerrillas in Biltine `3730`
+*   4x FAN guerrillas in Sudan Sanctuary
+*   3x MPLT guerrillas and MPLT leader in Mao `1631`
+*   1x PLA guerrilla and PLA leader in Mongororo `4239`
+*   1x FANT 7-3-6 infantry battalion each in N'djaména `1537` and Ati `2734`
+*   1x FANT 2-2-6 infantry company each in Mongo `2838`, Am Timan `3442`, and Boudougour `1642`
+*   2x FANT 2-2-6 infantry companies in Salal `2429`
+*   2x FANT 2-2-8 recon companies in Abeche `3633`
+
+#### <span class="red">Rebel Forces</span>
+   
+   **Rebel Commander**: FAP Commander GOUKOUNI in Fada `3922`.
+
+*   3 x FAP guerrillas in Oum Chalouba `3627`
+*   1 x FAP guerrilla in Fada `3922`
+*   2 x FAP guerrillas in Faya-Largeau `3020`
+*   2 x FAP guerrillas in Kirdimi `2819`
+*   3 x CDR guerrillas and CDR leader in Koro Toro `2826`
+*   3 x CODOS guerrillas and CODOS leader in Korbol `2446`
+*   7 x MRP guerrillas and MRP leader in Moundou `1849`
+
+The seven MRP guerrillas are considered independent at the start of the game, and may not move until activated. (Place an "IGF" marker on top of the stack to indicate this fact.) If attacked by one player, they are immediately activated and controlled by the other player. Otherwise, the Rebel player attempts to activate them by rolling one die during "Initiative Determination" of each Tactical Phase. MRP joins the Rebel side on a result of 5 or 6.
+
+
+#### <span class="green">Intervention Forces</span>
+
+FAP Allies: Libyan Task Force P
+- 2 x Legion 8-1-10 armor battalions in Fada `3922`
+- 1 x Legion 8-1-10 armor battalions in Ougui `2315`
+- 2 x Legion 5-2-6 infantry battalions in Oum Chalouba `3627`
+- 3 x Legion 5-2-6 infantry battalions in Djikdjik `3522`
+- 1 x Legion 5-2-6 infantry battalions in Monou `4225`
+- 2 x 10-2-10 armor battalions in Bardai `2308`
+- 2 x 8-2-10 mechanized battalions in Faya `3020`
+- 2 x 7-4-6 commando battalions in Koro Toro `2826`
+- 2 x 7-4-6 commando battalions in Ounianga Kebir `3516`
+
+### Player assignment
+
+Roll a single dice to decide which player initially controls the government. 
+- _n ≤ 3_: player who rolled is Government Commander (Habré)
+- _n ≥ 4_: player who rolled is Rebel Commander (Goukouni)
+
 ## 1.0 Guerilla Sanctuary Adjustment
 
-When playing the first round, go straight to [Movement and Battle](#3-0-impulse-movement-and-battle)
+> When beginning the first Tactical Phase of the game, skip all pre-Impulse events go straight to Impulse 1, government [movement and battle](#3-0-impulse-movement-and-battle).
 
 All guerilla units in the "New Arrivals" section are moved into the main portion of each Sanctuary box, where they are free to re-enter the hex grid

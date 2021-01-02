@@ -15,7 +15,7 @@
 />
 </p>
 <p class="center">
-<a href="/rulebook/" class="mybutton">
+<a href="/rulebook/play/" class="mybutton">
   Get Started →
 </a>
 </p>
@@ -24,7 +24,6 @@
 
 
 <style scoped>
-    
 .chad {
   color: var(--ac) !important;
   font-size: 118px;
@@ -81,7 +80,6 @@
   width: 290px;
   }
 }
-
 .mybutton {
   display: block;
   font-size: 1.2rem;
