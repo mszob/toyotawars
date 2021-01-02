@@ -1,4 +1,4 @@
-# Introduction and Game Setup
+# Intro and Game Setup
 
 > It is possible to begin playing `Toyota Wars` without necessarily having read the bulk of the game introduction on this page ahead of time. In that case, the players must simply follow the instructions in the [Combat Units Setup](/rulebook/#combat-units-setup) portion of this page and then skip straight to the [Play](/rulebook/play) section of the Rulebook. During gameplay however, necessary portions of this introduction will be referenced for player comprehension!
 
