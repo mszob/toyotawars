@@ -14,13 +14,6 @@
   src="images/logo2.gif"
 />
 </p>
-<!--
-<div>
-  <div class="manta center">
-  GAME ☆ RULEBOOK
-  </div>
-</div>-->
-
 <p class="center">
 <a href="/rulebook/" class="mybutton">
   Get Started →
@@ -34,19 +27,17 @@
     
 .chad {
   color: var(--ac) !important;
-  font-size: 90pt;
+  font-size: 118px;
   font-family: "Holtwood One SC", serif;
-  line-height: 0.4em;
-  margin-bottom: -0.2em;
-  margin-top: 0.7em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 45px;
   /**background-color:rgb(100,70,0);**/
 }
 @media only screen and (max-device-width: 1000px) {
   .chad {
-    color: var(--ac) !important;
-    font-size: 65pt;
-    font-family: "Holtwood One SC", serif;
-    line-height: 0.4em;
+    font-size: 86px;
+    line-height: 35px;
     /**background-color:rgb(100,70,0);**/
   }
 }
@@ -54,33 +45,36 @@
   text-align: center;
   margin-right:auto;
   margin-left:auto;
+  margin-top: 0px !important;
+  margin-bottom: 0px;
 }
 .wars {
   color: var(--ac) !important;
   font-family: "Teko";
   font-size: 61px;
-  line-height: 0.5em;
-  margin-top: 1em;
-  margin-bottom: -0.5em;
+  margin-top: 0px;
+  line-height: 75px;
 }
 @media only screen and (max-device-width: 1000px) {
   .wars {
     font-size: 44px;
-    margin-top: 35px;
   }
 }
 .arabic {
-  font-size: 0.3em;
+  font-size: 35px;
   font-family: Cairo;
   color: var(--do);
-  font-stretch: ultra-expanded;
+}
+@media only screen and (max-device-width: 1000px) {
+  .arabic {
+    font-size: 25px;
+    line-height: 20px;
+  }
 }
 .toyota {
   width: 410px;
-  left: 50%;
   image-rendering: pixelated;
-  z-index: 2;
-  margin-top: -50px;
+  margin-top: -80px;
 }
 @media only screen and (max-device-width: 1000px) {
   .toyota {
@@ -109,7 +103,7 @@
   .mybutton {
     width: 320px;
     max-width: 95%;
-    margin-top: -120px;
+    margin-top: -105px;
   }
 }
 </style>
