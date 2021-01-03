@@ -30,7 +30,7 @@ The sequenece of play for Operation Stingray can be summarized with the followin
      Tactical Phase 2...
 ```
 
-Let's break down each peice of the sequence.
+Let's break down each piece of the sequence.
 
 ### Tactical Phases
 
