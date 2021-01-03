@@ -2,7 +2,7 @@
     <div id="welcome">
 <div>
   <p class="chad center">
-    CHAD<br /><span class="arabic">---- تشاد •  تويوتا ----</span>
+    CHAD<br /><span class="arabic">---- تشاد • الحروب تويوتا ----</span>
   </p>
 </div>
 <div>
@@ -35,7 +35,7 @@
 }
 @media only screen and (max-device-width: 1000px) {
   .chad {
-    font-size: 86px;
+    font-size: 75px;
     line-height: 35px;
     /**background-color:rgb(100,70,0);**/
   }
@@ -47,6 +47,17 @@
   margin-top: 0px !important;
   margin-bottom: 0px;
 }
+.arabic {
+  font-size: 35px;
+  font-family: Cairo;
+  color: var(--do);
+}
+@media only screen and (max-device-width: 1000px) {
+  .arabic {
+    font-size: 22px;
+    line-height: 20px;
+  }
+}
 .wars {
   color: var(--ac) !important;
   font-family: "Teko";
@@ -56,20 +67,10 @@
 }
 @media only screen and (max-device-width: 1000px) {
   .wars {
-    font-size: 44px;
+    font-size: 38px;
   }
 }
-.arabic {
-  font-size: 35px;
-  font-family: Cairo;
-  color: var(--do);
-}
-@media only screen and (max-device-width: 1000px) {
-  .arabic {
-    font-size: 25px;
-    line-height: 20px;
-  }
-}
+
 .toyota {
   width: 410px;
   image-rendering: pixelated;
@@ -77,7 +78,7 @@
 }
 @media only screen and (max-device-width: 1000px) {
   .toyota {
-  width: 290px;
+  width: 275px;
   }
 }
 .mybutton {
@@ -99,8 +100,7 @@
 }
 @media only screen and (max-device-width: 1000px) {
   .mybutton {
-    width: 320px;
-    max-width: 95%;
+    width: 280px;
     margin-top: -105px;
   }
 }
