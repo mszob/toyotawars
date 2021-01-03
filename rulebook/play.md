@@ -109,8 +109,88 @@ Roll a single dice to decide which player initially controls the government.
 - _n ≤ 3_: player who rolled is Government Commander (Habré)
 - _n ≥ 4_: player who rolled is Rebel Commander (Goukouni)
 
+## Pre-Tactical Phase
+
+## Tactical Phase
+
+```
+->   Tactical Phase 1
+     |_ Impulse 1
+     |  |_ Government Segment
+     |  |  |_ Movement
+     |  |  |_ Battle
+     |  |_ Rebel Segment
+     |     |_ Movement
+     |     |_ Battle
+     |_ Impulse2
+     |  |_ Same as Impulse 1
+     |_ Impulse3
+        |_ Same as Impulse 1
+
+->   Tactical Phase 2...
+```
+
+## Pre-Impulse
+
+## Impulse
+
+```
+     Tactical Phase 1
+->   |_ Impulse 1
+     |  |_ Government Segment
+     |  |  |_ Movement
+     |  |  |_ Battle
+     |  |_ Rebel Segment
+     |     |_ Movement
+     |     |_ Battle
+->   |_ Impulse2
+     |  |_ Same as Impulse 1
+->   |_ Impulse3
+        |_ Same as Impulse 1
+
+     Tactical Phase 2...
+```
+
+## Movement
+
+```
+     Tactical Phase 1
+     |_ Impulse 1
+     |  |_ Government Segment
+->   |  |  |_ Movement
+     |  |  |_ Battle
+     |  |_ Rebel Segment
+->   |     |_ Movement
+     |     |_ Battle
+     |_ Impulse2
+     |  |_ Same as Impulse 1
+     |_ Impulse3
+        |_ Same as Impulse 1
+
+     Tactical Phase 2...
+```
+
+## Battle
+
+```
+     Tactical Phase 1
+     |_ Impulse 1
+     |  |_ Government Segment
+     |  |  |_ Movement
+->   |  |  |_ Battle
+     |  |_ Rebel Segment
+     |     |_ Movement
+->   |     |_ Battle
+     |_ Impulse2
+     |  |_ Same as Impulse 1
+     |_ Impulse3
+        |_ Same as Impulse 1
+
+     Tactical Phase 2...
+```
+
 ## 1.0 Guerilla Sanctuary Adjustment
 
-> When beginning the first Tactical Phase of the game, skip all pre-Impulse events go straight to Impulse 1, government [movement and battle](#3-0-impulse-movement-and-battle).
+> When beginning the first Tactical Phase of the game, skip all pre-Impulse events and go straight to Impulse 1, government [movement and battle](#3-0-impulse-movement-and-battle).
 
 All guerilla units in the "New Arrivals" section are moved into the main portion of each Sanctuary box, where they are free to re-enter the hex grid

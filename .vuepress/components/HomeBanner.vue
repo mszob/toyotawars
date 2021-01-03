@@ -2,7 +2,7 @@
     <div id="welcome">
 <div>
   <p class="chad center">
-    CHAD<br /><span class="arabic">---- تشاد • الحروب تويوتا ----</span>
+    CHAD<br /><span class="arabic">---- تشاد •  تويوتا ----</span>
   </p>
 </div>
 <div>
@@ -15,7 +15,7 @@
 />
 </p>
 <p class="center">
-<a href="/rulebook/play/" class="mybutton">
+<a href="/rulebook/play" class="mybutton">
   Get Started →
 </a>
 </p>

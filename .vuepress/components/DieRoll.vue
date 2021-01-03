@@ -40,7 +40,6 @@
         cursor: pointer;
         margin: 0px;
     }
-
     @media only screen and (max-device-width:1000px)  { 
         img {
             width: 100px;
