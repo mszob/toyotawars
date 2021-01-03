@@ -52,8 +52,6 @@ During each players Segment, the player first moves whichever unit the wish to m
 
 Below is map of the sequence of play which can be used for reference during the game. More than just the basic hierarchy of the sequence of play, this chart also helps visualize _events_ which happen just before and after the above _phases_ of the game. For example, after each Impulse, and before the next Impulse begins, units not stationed on a water supply are eliminated. This is an important event that falls outside of a movement or battle phase.
 
-![image](/images/diagram.png)
-
 ### Victory Conditions
 
 The game ends immediately if either Habre or Goukouni are eliminated; the player with the surviving Commander is declared the victor. Otherwise, the player who occupies N'Djamena with any type of ground unit at the end of 10 rounds wins the game.
