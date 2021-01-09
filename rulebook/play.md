@@ -10,7 +10,6 @@
 
 ## Overview of Sequence of Play
 
-
 The sequenece of play for Operation Stingray can be summarized with the following hierarchy.
 
 ```
@@ -54,7 +53,9 @@ Below is map of the sequence of play which can be used for reference during the 
 
 ### Victory Conditions
 
-The game ends immediately if either Habre or Goukouni are eliminated; the player with the surviving Commander is declared the victor. Otherwise, the player who occupies N'Djamena with any type of ground unit at the end of 10 rounds wins the game.
+The game ends immediately if either Habre or Goukouni are eliminated; the player with the surviving Commander is declared the victor. 
+
+In the event that both players fail to eliminate the rival commander, the player who occupies N'Djamena with any type of ground unit after a given length of time wins the game. In the Opération Manta scénario, this legnth of time is equal to two Tactical Phases — one rainy season, and one dry season. In other words, an Opération Manta game lasts a maximum of two Tactical Phases, representing a full year of companining.
 
 ## Game Setup
 
@@ -186,9 +187,3 @@ Roll a single dice to decide which player initially controls the government.
 
      Tactical Phase 2...
 ```
-
-## 1.0 Guerilla Sanctuary Adjustment
-
-> When beginning the first Tactical Phase of the game, skip all pre-Impulse events and go straight to Impulse 1, government [movement and battle](#3-0-impulse-movement-and-battle).
-
-All guerilla units in the "New Arrivals" section are moved into the main portion of each Sanctuary box, where they are free to re-enter the hex grid

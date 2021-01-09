@@ -2,7 +2,7 @@
 
 > Each portion of this game introduction will be referenced at the appropriate time during [gameplay](/rulebook/play/) for player comprehension. It may also be beneficial to read this introduction in full before beginning gameplay.
 
-> For more in-depth historical details which are not indepseansble for understanding gameplay, visit our [history corner](/)!
+> For more in-depth historical details which are not indepseansble for understanding gameplay, visit our [history corner](/history)!
 
 ## Understanding the Military Situation
 
