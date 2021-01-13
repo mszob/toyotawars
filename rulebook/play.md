@@ -51,6 +51,45 @@ During each players Segment, the player first moves whichever unit the wish to m
 
 Below is map of the sequence of play which can be used for reference during the game. More than just the basic hierarchy of the sequence of play, this chart also helps visualize _events_ which happen just before and after the above _phases_ of the game. For example, after each Impulse, and before the next Impulse begins, units not stationed on a water supply are eliminated. This is an important event that falls outside of a movement or battle phase.
 
+```
+    Pre-tactical
+    ████████████████████████████████████████████████████
+    TACTICAL PHASE
+   ,----------------------------------------------------.
+   |   Pre-impulse             Pre-imp      Pre-imp     |
+   |   ████████████████████    █████████    █████████   |
+   |   IMPULSE 1               IMPULSE 2    IMPULSE 2   |
+   |  ,--------------------.  ,---------.  ,---------.  |
+   |  | Pre-gov-segment    |  | Pre-gov |  | Pre-gov |  |
+   |  | █████████████████  |  | ███████ |  | ███████ |  |
+   |  | GOVERNMENT SEGMENT |  | GOV SEG |  | GOV SEG |  |
+   |  | ,----------------. |  | ,-----. |  | ,-----. |  |
+   |  | |  - Movement    | |  | | - M | |  | | - M | |  |
+   |  | |  - Battle      | |  | | - B | |  | | - B | |  |
+   |  | `----------------' |  | `-----' |  | `-----' |  |
+   |  | Pre-reb-segment    |  | Pre-reb |  | Pre-reb |  |
+   |  | █████████████████  |  | ███████ |  | ███████ |  |
+   |  | REBEL SEGMENT      |  | REB SEG |  | REB SEG |  |
+   |  | ,----------------. |  | ,-----. |  | ,-----. |  |
+   |  | |  - Movoment    | |  | | - M | |  | | - M | |  |
+   |  | |  - Battle      | |  | | - B | |  | | - B | |  |
+   |  | `----------------' |  | `-----' |  | `-----' |  |
+   |  `-------------------'   `---------'  `---------'  |
+   `----------------------------------------------------'
+
+   Pre-tactical 
+   - 
+   - 
+
+   Pre-impulse
+   - 
+   - 
+
+   Pre-segment (government + rebel)
+   - 
+   - 
+```
+
 ### Victory Conditions
 
 The game ends immediately if either Habre or Goukouni are eliminated; the player with the surviving Commander is declared the victor. 
