@@ -52,42 +52,42 @@ During each players Segment, the player first moves whichever unit the wish to m
 Below is map of the sequence of play which can be used for reference during the game. More than just the basic hierarchy of the sequence of play, this chart also helps visualize _events_ which happen just before and after the above _phases_ of the game. For example, after each Impulse, and before the next Impulse begins, units not stationed on a water supply are eliminated. This is an important event that falls outside of a movement or battle phase.
 
 ```
-    Pre-tactical
-    ████████████████████████████████████████████████████
-    TACTICAL PHASE
-   ,----------------------------------------------------.
-   |   Pre-impulse             Pre-imp      Pre-imp     |
-   |   ████████████████████    █████████    █████████   |
-   |   IMPULSE 1               IMPULSE 2    IMPULSE 2   |
-   |  ,--------------------.  ,---------.  ,---------.  |
-   |  | Pre-gov-segment    |  | Pre-gov |  | Pre-gov |  |
-   |  | █████████████████  |  | ███████ |  | ███████ |  |
-   |  | GOVERNMENT SEGMENT |  | GOV SEG |  | GOV SEG |  |
-   |  | ,----------------. |  | ,-----. |  | ,-----. |  |
-   |  | |  - Movement    | |  | | - M | |  | | - M | |  |
-   |  | |  - Battle      | |  | | - B | |  | | - B | |  |
-   |  | `----------------' |  | `-----' |  | `-----' |  |
-   |  | Pre-reb-segment    |  | Pre-reb |  | Pre-reb |  |
-   |  | █████████████████  |  | ███████ |  | ███████ |  |
-   |  | REBEL SEGMENT      |  | REB SEG |  | REB SEG |  |
-   |  | ,----------------. |  | ,-----. |  | ,-----. |  |
-   |  | |  - Movoment    | |  | | - M | |  | | - M | |  |
-   |  | |  - Battle      | |  | | - B | |  | | - B | |  |
-   |  | `----------------' |  | `-----' |  | `-----' |  |
-   |  `-------------------'   `---------'  `---------'  |
-   `----------------------------------------------------'
+ Pre-tactical
+ █████████████████████████████████████████████████
+ TACTICAL PHASE
+,------------------------------------------------.
+|   Pre-impulse          Pre-imp      Pre-imp     |
+|   █████████████████    █████████    █████████   |
+|   IMPULSE 1            IMPULSE 2    IMPULSE 2   |
+|  ,-----------------.  ,---------.  ,---------.  |
+|  | Pre-gov-segment |  | Pre-gov |  | Pre-gov |  |
+|  | ███████████████ |  | ███████ |  | ███████ |  |
+|  | GOV SEGMENT     |  | GOV SEG |  | GOV SEG |  |
+|  | ,-------------. |  | ,-----. |  | ,-----. |  |
+|  | |  - Movement | |  | | - M | |  | | - M | |  |
+|  | |  - Battle   | |  | | - B | |  | | - B | |  |
+|  | `-------------' |  | `-----' |  | `-----' |  |
+|  | Pre-reb-segment |  | Pre-reb |  | Pre-reb |  |
+|  | ███████████████ |  | ███████ |  | ███████ |  |
+|  | REBEL SEGMENT   |  | REB SEG |  | REB SEG |  |
+|  | ,-------------. |  | ,-----. |  | ,-----. |  |
+|  | |  - Movoment | |  | | - M | |  | | - M | |  |
+|  | |  - Battle   | |  | | - B | |  | | - B | |  |
+|  | `-------------' |  | `-----' |  | `-----' |  |
+|  `-----------------'  `---------'  `---------'  |
+`-------------------------------------------------'
 
-   Pre-tactical 
-   - 
-   - 
+Pre-tactical 
+- Switch seasons
+- Eliminate thirsty rebels 
+- Gov tries to ally Moundou MRP Units
 
-   Pre-impulse
-   - 
-   - 
+Pre-impulse
+- Rebel Sanctuary Adjustment
+- Eliminate thirsty Gov Units
 
-   Pre-segment (government + rebel)
-   - 
-   - 
+Pre-segment (government + rebel)
+- I'm working on it!
 ```
 
 ### Victory Conditions
