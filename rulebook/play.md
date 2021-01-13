@@ -21,12 +21,10 @@ The sequenece of play for Operation Stingray can be summarized with the followin
      |  |_ Rebel Segment
      |     |_ Movement
      |     |_ Battle
-     |_ Impulse2
-     |  |_ Same as Impulse 1
-     |_ Impulse3
-        |_ Same as Impulse 1
+     |_ Impulse 2
+     |_ Impulse 3
 
-     Tactical Phase 2...
+     Tactical Phase 2
 ```
 
 Let's break down each piece of the sequence.
@@ -148,81 +146,16 @@ Roll a single dice to decide which player initially controls the government.
 - _n ≥ 4_: player who rolled is Rebel Commander (Goukouni)
 
 ## Pre-Tactical Phase
+<map-large></map-large>
 
 ## Tactical Phase
 
-```
-->   Tactical Phase 1
-     |_ Impulse 1
-     |  |_ Government Segment
-     |  |  |_ Movement
-     |  |  |_ Battle
-     |  |_ Rebel Segment
-     |     |_ Movement
-     |     |_ Battle
-     |_ Impulse2
-     |  |_ Same as Impulse 1
-     |_ Impulse3
-        |_ Same as Impulse 1
-
-->   Tactical Phase 2...
-```
-
 ## Pre-Impulse
+<map-large></map-large>
 
 ## Impulse
 
-```
-     Tactical Phase 1
-->   |_ Impulse 1
-     |  |_ Government Segment
-     |  |  |_ Movement
-     |  |  |_ Battle
-     |  |_ Rebel Segment
-     |     |_ Movement
-     |     |_ Battle
-->   |_ Impulse2
-     |  |_ Same as Impulse 1
-->   |_ Impulse3
-        |_ Same as Impulse 1
-
-     Tactical Phase 2...
-```
-
 ## Movement
-
-```
-     Tactical Phase 1
-     |_ Impulse 1
-     |  |_ Government Segment
-->   |  |  |_ Movement
-     |  |  |_ Battle
-     |  |_ Rebel Segment
-->   |     |_ Movement
-     |     |_ Battle
-     |_ Impulse2
-     |  |_ Same as Impulse 1
-     |_ Impulse3
-        |_ Same as Impulse 1
-
-     Tactical Phase 2...
-```
+<map-large></map-large>
 
 ## Battle
-
-```
-     Tactical Phase 1
-     |_ Impulse 1
-     |  |_ Government Segment
-     |  |  |_ Movement
-->   |  |  |_ Battle
-     |  |_ Rebel Segment
-     |     |_ Movement
-->   |     |_ Battle
-     |_ Impulse2
-     |  |_ Same as Impulse 1
-     |_ Impulse3
-        |_ Same as Impulse 1
-
-     Tactical Phase 2...
-```
