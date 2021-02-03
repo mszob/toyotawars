@@ -10,21 +10,26 @@
 
 ## Overview of Sequence of Play
 
-The sequenece of play for Operation Stingray can be summarized with the following hierarchy.
+The basic sequenece of play for Operation Stingray can be visualized with the following hierarchy.
 
 ```
-     Tactical Phase 1
-     |_ Impulse 1
-     |  |_ Government Segment
-     |  |  |_ Movement
-     |  |  |_ Battle
-     |  |_ Rebel Segment
-     |     |_ Movement
-     |     |_ Battle
-     |_ Impulse 2
-     |_ Impulse 3
+     TACTICAL PHASE 1
+     |
+     |__ Impulse 1
+     |   |
+     |   |__ Government Segment
+     |   |   |__ Movement
+     |   |   |__ Battle
+     |   |__ Rebel Segment
+     |       |__ Movement
+     |       |__ Battle
+     |
+     |__ Impulse 2
+     |
+     |__ Impulse 3
 
-     Tactical Phase 2
+
+     TACTICAL PHASE 2
 ```
 
 Let's break down each piece of the sequence.
@@ -47,10 +52,9 @@ During each players Segment, the player first moves whichever unit the wish to m
 
 ### Diagram
 
-Below is map of the sequence of play which can be used for reference during the game. More than just the basic hierarchy of the sequence of play, this chart also helps visualize _events_ which happen just before and after the above _phases_ of the game. For example, after each Impulse, and before the next Impulse begins, units not stationed on a water supply are eliminated. This is an important event that falls outside of a movement or battle phase.
+Below is map of the sequence of play which can be used for reference during the game. More than just the basic hierarchy of the sequence of play (see above), this chart also helps visualize _events_ which happen just before and after the above _phases_ of the game. For example, after each Impulse, and before the next Impulse begins, units not stationed on a water supply are eliminated. This is an important event that falls outside of a movement or battle phase.
 
-```
- Pre-tactical
+<!-- Pre-tactical
  █████████████████████████████████████████
  TACTICAL PHASE
 ,-----------------------------------------.
@@ -73,7 +77,32 @@ Below is map of the sequence of play which can be used for reference during the 
 | | |  - Battle   | | | | B | | | | B | | |
 | | `-------------' | | `---' | | `---' | |
 | `-----------------' `-------' `-------' |
-`-----------------------------------------'
+`-----------------------------------------'-->
+```
+ Pre-tactical events
+ █████████████████████████████████████
+ TACTICAL PHASE
+,-------------------------------------.
+|  Pre-imp. events     Pr-im   Pr-im  |
+|  █████████████████   █████   █████  |
+|  IMPULSE 1           IMP 2   IMP 3  |
+| ,-----------------. ,-----. ,-----. |
+| | Pre-gov-segment | | P-g | | P-g | |
+| | ███████████████ | | ███ | | ███ | |
+| | GOV SEGMENT     | | GOV | | GOV | |
+| | ,-------------. | | ,-. | | ,-. | |
+| | |  - Movement | | | |-| | | |-| | |
+| | |  - Battle   | | | |-| | | |-| | |
+| | `-------------' | | `-' | | `-' | |
+| | Pre-reb-segment | | P-r | | P-r | |
+| | ███████████████ | | ███ | | ███ | |
+| | REBEL SEGMENT   | | REB | | REB | |
+| | ,-------------. | | ,-. | | ,-. | |
+| | |  - Movoment | | | |-| | | |-| | |
+| | |  - Battle   | | | |-| | | |-| | |
+| | `-------------' | | `-' | | `-' | |
+| `-----------------' `-----' `-----' |
+`-------------------------------------'
 
 Pre-tactical 
 - Switch seasons
