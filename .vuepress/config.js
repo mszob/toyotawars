@@ -12,7 +12,7 @@ module.exports = {
       ],
 
     title: 'TW Handbook',
-    description: 'does it work?',
+    description: 'Hassan Djamous FTW!',
     dest: 'docs',
     
     themeConfig: {
